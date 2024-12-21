@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <meta name="application-name" content="SM Overview Map" />
+        <meta name="author" content="The1Killer" />
+        <meta name="User" content="GamingOnInsulin" />
+        <meta name="generator" content="https://github.com/the1killer/sm_overview"/>
+        <link rel="icon" href="./assets/img/favicon.png" type="image/png" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <link rel="stylesheet" href="./assets/style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet-src.min.js"></script>
+        <script src="libs/leaflet-hash.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="assets/js/cellparser.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400&&display=swap" rel="stylesheet">
+        <title>Scrap Mechanic | ScrapMap</title>
+        <style>
+            
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <div id="header-content">
+                <div id="header-logo">
+                    <a href="./index.html">
+                        <img src="./assets/img/favicon.png" alt="Scrap Mechanic Logo">
+                    </a>
+                </div>
+                <div id="header-title">
+                    <h1>ScrapMap</h1>
+                    <p>For the let's player by <a href="https://github.com/GamingOnInsulin" target="_blank">GamingOnInsulin</a>.</p>
+                </div>
+            </div>
+        </header>
+        <div class="main-content">
+            <!-- <div id="menu"> -->
+                <!-- <a href="#">Home</a> -->
+                <!-- <a href="#">About</a> -->
+                <!-- <a class="active" href="./index.html">Map</a> -->
+            <!-- </div> -->
+            <div id="map"> 
+                <!-- leave this empty --> 
+            </div> 
+            <div id="stats"> 
+                <a href="#" id="stats-toggle" class="toggle">Map Statistics</a> 
+                <div id="stats-content" class="collapsed"> 
+                    <!-- leave this empty --> 
+                </div> 
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p> &copy; 2024 | ScrapMap is not affiliated with <a href="https://store.steampowered.com/app/387990/Scrap_Mechanic/" target="_blank">Scrap Mechanic</a> or the <a href="https://github.com/the1killer/sm_overview/" target="_blank">Scrap Mechanic Scrap Map</a>.</p>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/sm_overview_map.js"></script>
+        <script>SMOverviewMap.init();</script>
+    </body>
+</html>
